@@ -1,0 +1,173 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "order": [
+    "main",
+    "rich_text_QjjYxq",
+    "related-products",
+    "1728994321bace5ca5",
+    "pf-14e69cfb"
+  ],
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_Tdcn4n": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "text_acn3Vj": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>✔ অর্ডার কনফার্ম করতে BUY NOW বাটনে ক্লিক করুন 👇</strong>",
+            "text_style": "body"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "judge_me_reviews_preview_badge_Tdcn4n",
+        "variant_picker",
+        "quantity_selector",
+        "text_acn3Vj",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-2",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_QjjYxq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EYWDXP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>\" অর্ডার কনফার্ম করতে \"</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_NQAyYt": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>আপনার নাম, ফোন নাম্বার এবং এড্রেস দিয়ে ওয়েবসাইটে <strong>\"ORDER NOW\" </strong>- বাটন এ ক্লিক করে অর্ডার করুন।<br/><br/>অথবা আমাদের ফেইসবুক পেইজে ইনবক্স করুন Or হোয়াটসঅ্যাপ Or ফোনে অর্ডার করুন: <strong>+8801821-425442</strong></h4>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EYWDXP",
+        "text_NQAyYt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "1728994321bace5ca5": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_DCDAtR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_DCDAtR"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "pf-14e69cfb": {
+      "type": "pf-14e69cfb",
+      "settings": {}
+    }
+  }
+}

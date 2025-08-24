@@ -1,0 +1,508 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "order": [
+    "slideshow_yTxpqA",
+    "featured_collection",
+    "featured_product_tGDcHf",
+    "featured_collection_9iAnBV",
+    "image_with_text_ct93Ph",
+    "featured_collection_3VW9wH",
+    "image_with_text_fmimzg",
+    "multicolumn_qDa8Ht",
+    "rich_text_GRfbEB",
+    "video_scrole_rPUB9G"
+  ],
+  "sections": {
+    "featured_collection": {
+      "settings": {
+        "collection": "all",
+        "color_scheme": "scheme-46a94dca-3e85-4eca-9da6-0c5ae74900a2",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "description": "",
+        "description_style": "body",
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "heading_size": "h0",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "padding_bottom": 36,
+        "padding_top": 44,
+        "products_to_show": 8,
+        "quick_add": "standard",
+        "show_description": false,
+        "show_rating": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "title": "Beauty And Health Products",
+        "view_all_style": "solid"
+      },
+      "type": "featured-collection"
+    },
+    "featured_collection_3VW9wH": {
+      "settings": {
+        "collection": "all",
+        "color_scheme": "scheme-46a94dca-3e85-4eca-9da6-0c5ae74900a2",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "description": "",
+        "description_style": "body",
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "heading_size": "h0",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "padding_bottom": 36,
+        "padding_top": 44,
+        "products_to_show": 8,
+        "quick_add": "none",
+        "show_description": false,
+        "show_rating": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "title": "Our Collections",
+        "view_all_style": "solid"
+      },
+      "type": "featured-collection"
+    },
+    "featured_collection_9iAnBV": {
+      "settings": {
+        "collection": "all",
+        "color_scheme": "scheme-46a94dca-3e85-4eca-9da6-0c5ae74900a2",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "description": "",
+        "description_style": "body",
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "heading_size": "h0",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "padding_bottom": 36,
+        "padding_top": 44,
+        "products_to_show": 8,
+        "quick_add": "standard",
+        "show_description": false,
+        "show_rating": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "title": "New Arrival Products",
+        "view_all_style": "solid"
+      },
+      "type": "featured-collection"
+    },
+    "featured_product_tGDcHf": {
+      "block_order": [
+        "text_Qkh7kk",
+        "title_wgUqC7",
+        "price_tAVyeh",
+        "variant_picker_gkzwyj",
+        "quantity_selector_prKXz8",
+        "buy_buttons_F3rXMe",
+        "share_j6yAmL"
+      ],
+      "blocks": {
+        "buy_buttons_F3rXMe": {
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          },
+          "type": "buy_buttons"
+        },
+        "price_tAVyeh": {
+          "settings": {},
+          "type": "price"
+        },
+        "quantity_selector_prKXz8": {
+          "settings": {},
+          "type": "quantity_selector"
+        },
+        "share_j6yAmL": {
+          "settings": {
+            "share_label": "Share"
+          },
+          "type": "share"
+        },
+        "text_Qkh7kk": {
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          },
+          "type": "text"
+        },
+        "title_wgUqC7": {
+          "settings": {
+            "heading_size": "h1"
+          },
+          "type": "title"
+        },
+        "variant_picker_gkzwyj": {
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          },
+          "type": "variant_picker"
+        }
+      },
+      "settings": {
+        "color_scheme": "scheme-46a94dca-3e85-4eca-9da6-0c5ae74900a2",
+        "constrain_to_viewport": true,
+        "enable_video_looping": false,
+        "hide_variants": false,
+        "image_zoom": "lightbox",
+        "media_fit": "contain",
+        "media_position": "left",
+        "media_size": "medium",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "product": "apple-smart-watch-8-ultra-clone-mastercopy",
+        "secondary_background": false
+      },
+      "type": "featured-product"
+    },
+    "image_with_text_ct93Ph": {
+      "block_order": [
+        "heading_KnAmYe",
+        "text_EFqTbk",
+        "button_JUTmwh"
+      ],
+      "blocks": {
+        "button_JUTmwh": {
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          },
+          "type": "button"
+        },
+        "heading_KnAmYe": {
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          },
+          "type": "heading"
+        },
+        "text_EFqTbk": {
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          },
+          "type": "text"
+        }
+      },
+      "settings": {
+        "color_scheme": "scheme-73c87de3-c815-4c81-86dc-dadaffa690f1",
+        "content_layout": "overlap",
+        "desktop_content_alignment": "left",
+        "desktop_content_position": "top",
+        "desktop_image_width": "medium",
+        "height": "adapt",
+        "image": "shopify://shop_images/1724824315-9fcdcaf9-3d70-40b0-b161-58db83da3fd9.jpg",
+        "image_behavior": "none",
+        "layout": "image_first",
+        "mobile_content_alignment": "left",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "section_color_scheme": "scheme-2"
+      },
+      "type": "image-with-text"
+    },
+    "image_with_text_fmimzg": {
+      "block_order": [
+        "heading_yDRdyk",
+        "text_NRH7Pa",
+        "button_ayqyCU"
+      ],
+      "blocks": {
+        "button_ayqyCU": {
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          },
+          "type": "button"
+        },
+        "heading_yDRdyk": {
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          },
+          "type": "heading"
+        },
+        "text_NRH7Pa": {
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          },
+          "type": "text"
+        }
+      },
+      "settings": {
+        "color_scheme": "scheme-73c87de3-c815-4c81-86dc-dadaffa690f1",
+        "content_layout": "overlap",
+        "desktop_content_alignment": "left",
+        "desktop_content_position": "top",
+        "desktop_image_width": "medium",
+        "height": "adapt",
+        "image": "shopify://shop_images/1724824315-9fcdcaf9-3d70-40b0-b161-58db83da3fd9.jpg",
+        "image_behavior": "none",
+        "layout": "image_first",
+        "mobile_content_alignment": "left",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "section_color_scheme": "scheme-2"
+      },
+      "type": "image-with-text"
+    },
+    "multicolumn_qDa8Ht": {
+      "block_order": [
+        "column_BWKYmb",
+        "column_c8kWht",
+        "column_c7LmQi",
+        "column_YHEY7A"
+      ],
+      "blocks": {
+        "column_BWKYmb": {
+          "settings": {
+            "image": "shopify://shop_images/original.png",
+            "link": "",
+            "link_label": "",
+            "text": "<p>Guaranteed 100% Authentic Product</p>",
+            "title": "<strong>Authentic Product</strong>"
+          },
+          "type": "column"
+        },
+        "column_YHEY7A": {
+          "settings": {
+            "image": "shopify://shop_images/cash-on-delivery.png",
+            "link": "",
+            "link_label": "",
+            "text": "<p>Make Payments Hands Free Very Easily</p>",
+            "title": "<strong>Cash On Payment</strong>"
+          },
+          "type": "column"
+        },
+        "column_c7LmQi": {
+          "settings": {
+            "image": "shopify://shop_images/delivery-man.png",
+            "link": "",
+            "link_label": "",
+            "text": "<p>Fast Delivery is Our First Moto🏍</p>",
+            "title": "<strong>Fast Delivery</strong>"
+          },
+          "type": "column"
+        },
+        "column_c8kWht": {
+          "settings": {
+            "image": "shopify://shop_images/24-hours-support.png",
+            "link": "",
+            "link_label": "",
+            "text": "<p>We Support Online 24 Hours</p>",
+            "title": "<strong>SUPPORT 24/7</strong>"
+          },
+          "type": "column"
+        }
+      },
+      "settings": {
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "column_alignment": "center",
+        "columns_desktop": 4,
+        "columns_mobile": "1",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "image_width": "third",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "swipe_on_mobile": false,
+        "title": ""
+      },
+      "type": "multicolumn"
+    },
+    "rich_text_GRfbEB": {
+      "block_order": [
+        "heading_zDjxCU",
+        "text_bVkaKx",
+        "button_VJEbqA"
+      ],
+      "blocks": {
+        "button_VJEbqA": {
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_label_2": "",
+            "button_link": "https://othoimart.com/",
+            "button_link_2": "",
+            "button_style_secondary": false,
+            "button_style_secondary_2": false
+          },
+          "type": "button"
+        },
+        "heading_zDjxCU": {
+          "settings": {
+            "heading": "<strong>Our Mission and Vision</strong>",
+            "heading_size": "h1"
+          },
+          "type": "heading"
+        },
+        "text_bVkaKx": {
+          "settings": {
+            "text": "<p><em>Helping You Get The Flow Of Your Life. Our Goal Is To Comfort You With Online Shopping.</em><em><strong>Othoimart</strong></em><em>Always Provides The Right Service To Every Client</em><a href=\"https://othoimart.com/collections/all\" title=\"All products\"><em>...</em></a></p>"
+          },
+          "type": "text"
+        }
+      },
+      "settings": {
+        "color_scheme": "scheme-46a94dca-3e85-4eca-9da6-0c5ae74900a2",
+        "content_alignment": "center",
+        "desktop_content_position": "center",
+        "full_width": true,
+        "padding_bottom": 52,
+        "padding_top": 40
+      },
+      "type": "rich-text"
+    },
+    "slideshow_yTxpqA": {
+      "block_order": [
+        "slide_MhWgeY",
+        "slide_fUpJLX"
+      ],
+      "blocks": {
+        "slide_MhWgeY": {
+          "settings": {
+            "box_align": "middle-center",
+            "button_label": "",
+            "button_style_secondary": false,
+            "color_scheme": "",
+            "heading": "",
+            "heading_size": "h1",
+            "image": "shopify://shop_images/GADGET.jpg",
+            "image_overlay_opacity": 0,
+            "link": "",
+            "show_text_box": false,
+            "subheading": "",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center"
+          },
+          "type": "slide"
+        },
+        "slide_fUpJLX": {
+          "settings": {
+            "box_align": "middle-center",
+            "button_label": "",
+            "button_style_secondary": false,
+            "color_scheme": "",
+            "heading": "",
+            "heading_size": "h1",
+            "image": "shopify://shop_images/OthoiMart_Fb_Cover.png",
+            "image_overlay_opacity": 0,
+            "link": "",
+            "show_text_box": false,
+            "subheading": "",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center"
+          },
+          "type": "slide"
+        }
+      },
+      "settings": {
+        "accessibility_info": "",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "layout": "full_bleed",
+        "show_text_below": false,
+        "slide_height": "adapt_image",
+        "slider_visual": "dots"
+      },
+      "type": "slideshow"
+    },
+    "video_scrole_rPUB9G": {
+      "block_order": [
+        "video_aHJDWz",
+        "video_QMc4Tt",
+        "video_qLbGRa",
+        "video_QQE4r3",
+        "video_tmTbY7"
+      ],
+      "blocks": {
+        "video_QMc4Tt": {
+          "settings": {
+            "collection": "",
+            "product": ""
+          },
+          "type": "video"
+        },
+        "video_QQE4r3": {
+          "settings": {
+            "collection": "",
+            "product": ""
+          },
+          "type": "video"
+        },
+        "video_aHJDWz": {
+          "settings": {
+            "collection": "",
+            "product": ""
+          },
+          "type": "video"
+        },
+        "video_qLbGRa": {
+          "settings": {
+            "collection": "",
+            "product": ""
+          },
+          "type": "video"
+        },
+        "video_tmTbY7": {
+          "settings": {
+            "collection": "",
+            "product": ""
+          },
+          "type": "video"
+        }
+      },
+      "name": "Video carousel",
+      "settings": {
+        "anchor_id": "",
+        "aspect_ratio": "9:16",
+        "autoplay": 8,
+        "background_color": "",
+        "base_width": 100,
+        "border_color": "#121212",
+        "border_radius": 10,
+        "custom_css": "",
+        "gap": 10,
+        "heading_font": "serif",
+        "image_crop": "2:3",
+        "inner_padding": 40,
+        "main_font": "sans-serif",
+        "max_width": "",
+        "mobile_custom_css": "",
+        "outer_margin": 0,
+        "override_theme_font": false,
+        "show_arrows": false,
+        "slide_width": 300,
+        "text_alignment": "left",
+        "text_color": "#121212",
+        "text_size": 100
+      },
+      "type": "video-scrole"
+    }
+  }
+}

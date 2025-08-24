@@ -1,0 +1,140 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "order": [
+    "rich_text_MPziJe",
+    "main",
+    "related-products"
+  ],
+  "sections": {
+    "rich_text_MPziJe": {
+      "type": "rich-text",
+      "blocks": {
+        "text_dw7xiN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_dw7xiN"
+      ],
+      "custom_css": [
+        "{font-size: 16px;}",
+        "@media (max-width: 768px) {{font-size: 12px; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-46a94dca-3e85-4eca-9da6-0c5ae74900a2",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_GNnDhG": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"custom-review-summary\">\n  <span class=\"stars\">★★★★★<\/span>\n  <span class=\"text\">\n    <strong>Excellent<\/strong> 4.8 | <strong>2000+<\/strong> Reviews\n  <\/span>\n<\/div>\n\n<style>\n  .custom-review-summary {\n    font-family: sans-serif;\n    display: flex;\n    align-items: center;\n    gap: 8px;\n  }\n\n  .custom-review-summary .stars {\n    color: #7563C9; \/* Purple shade *\/\n    font-size: 25px; \/* Desktop star size *\/\n  }\n\n  .custom-review-summary .text {\n    font-size: 16px; \/* Desktop text size *\/\n    color: #333;\n  }\n\n  .custom-review-summary .text strong {\n    font-weight: 600;\n  }\n\n  \/* Responsive styles *\/\n  @media (max-width: 768px) {\n    .custom-review-summary .stars {\n      font-size: 18px; \/* Mobile star size *\/\n    }\n\n    .custom-review-summary .text {\n      font-size: 14px; \/* Mobile text size *\/\n    }\n  }\n<\/style>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "custom_liquid_AyDLEU": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"viewer-container\">\n  <div class=\"viewer-count\">\n    <span class=\"viewer-icon\"><\/span>\n    <strong id=\"viewerNumber\">211<\/strong> people are currently looking at this\n  <\/div>\n  <hr class=\"viewer-separator\">\n<\/div>\n\n<style>\n  .viewer-container {\n    padding: 0px 0;\n  }\n\n  .viewer-count {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 13px;\n    font-weight: 600;\n    padding: 4px 0;\n  }\n\n  .viewer-icon {\n    width: 12px;\n    height: 12px;\n    border-radius: 50%;\n    background: #A58EFF;\n    box-shadow: 0 0 0 0 rgba(165, 142, 255, 0.6);\n    animation: pulseDot 1.5s infinite;\n    display: inline-block;\n  }\n\n  @keyframes pulseDot {\n    0% {\n      transform: scale(1);\n      box-shadow: 0 0 0 0 rgba(165, 142, 255, 0.6);\n    }\n    70% {\n      transform: scale(1.2);\n      box-shadow: 0 0 0 6px rgba(165, 142, 255, 0);\n    }\n    100% {\n      transform: scale(1);\n      box-shadow: 0 0 0 0 rgba(165, 142, 255, 0);\n    }\n  }\n\n  .viewer-count strong {\n    font-weight: 700;\n  }\n\n  .viewer-separator {\n    border: none;\n    border-top: 1px solid #ffffff80;\n    margin: 5px 0 0 0;  }\n<\/style>\n\n<script>\n  function updateViewerCount() {\n    const viewerElement = document.getElementById('viewerNumber');\n    let current = parseInt(viewerElement.textContent, 10);\n    const change = Math.floor(Math.random() * 5 - 2); \/\/ -2 to +2\n    let next = current + change;\n    next = Math.max(50, Math.min(300, next)); \/\/ Bound between 50 and 300\n    viewerElement.textContent = next;\n  }\nsetInterval(updateViewerCount, 4000);\n<\/script>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_xkT9Kg": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"text-align:center;\">\n  <img \n    src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0859\/2667\/4769\/files\/image.webp?v=1751660668\" \n    alt=\"Image\" \n    height=\"60\" \n    style=\"display: inline-block;\"\n  \/>\n<\/div>"
+          }
+        },
+        "custom_liquid_yUbiAY": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"delivery-message\">\n  <p class=\"delivery-text\">\n    Want It By <span id=\"deliveryDate\"><\/span>?\n  <\/p>\n  <p class=\"order-text\">\n    ORDER WITHIN <span id=\"countdown\" class=\"countdown-time\"><\/span>\n  <\/p>\n<\/div>\n\n{{ '\/\/cdnjs.cloudflare.com\/ajax\/libs\/datejs\/1.0\/date.min.js' | script_tag }}\n\n<style>\n  .delivery-message {\n    text-align: center;\n    margin: 12px 0;\n  }\n\n  .delivery-text {\n    font-size: 16px;\n    font-weight: 500;\n    margin: 0 0 6px;\n    color: #1c1c1c;\n  }\n\n  .order-text {\n    font-size: 16px;\n    font-weight: 600;\n    margin: 0;\n    color: #1c1c1c;\n  }\n\n  .countdown-time {\n    color: #7A6CFF; \/* Timer color *\/\n    font-weight: 700;\n  }\n<\/style>\n\n<script>\n  \/\/ --- Delivery Date Logic ---\n  const today = new Date();\n  let deliveryDate = today.addDays(2);\n  \n\n  \/\/ Display delivery date\n  document.getElementById('deliveryDate').innerHTML = deliveryDate.toString('dddd, d MMM');\n\n  \/\/ --- Countdown Timer Logic ---\n  function startCountdown(hours, minutes) {\n    const countdownKey = 'countdownEndTime';\n    let endTime;\n\n    function setNewEndTime() {\n      endTime = new Date();\n      endTime.setHours(endTime.getHours() + hours);\n      endTime.setMinutes(endTime.getMinutes() + minutes);\n      localStorage.setItem(countdownKey, endTime.getTime());\n    }\n\n    \/\/ Use existing countdown from localStorage if available\n    if (localStorage.getItem(countdownKey)) {\n      endTime = new Date(parseInt(localStorage.getItem(countdownKey), 10));\n    } else {\n      setNewEndTime();\n    }\n\n    function updateCountdown() {\n      const now = new Date();\n      let diff = endTime - now;\n\n      if (diff <= 0) {\n        setNewEndTime();\n        diff = endTime - now; \/\/ Reset countdown difference\n      }\n\n      const hrs = Math.floor(diff \/ (1000 * 60 * 60));\n      const mins = Math.floor((diff % (1000 * 60 * 60)) \/ (1000 * 60));\n\n      document.getElementById('countdown').innerHTML = `${hrs} HOURS ${mins} MINUTES`;\n    }\n\n    updateCountdown();\n    setInterval(updateCountdown, 60000); \/\/ Update every minute\n  }\n\n  \/\/ Initialize countdown (change here for different time)\n  startCountdown(2, 8);\n<\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_GNnDhG",
+        "title",
+        "custom_liquid_AyDLEU",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_xkT9Kg",
+        "custom_liquid_yUbiAY"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-2",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  }
+}

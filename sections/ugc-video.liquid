@@ -1,0 +1,85 @@
+{% comment %}
+  UGC Infinite Video Carousel Section
+{% endcomment %}
+<section class="w-full overflow-hidden bg-white py-8">
+  <div class="max-w-7xl mx-auto px-4">
+    {% if section.settings.title != blank %}
+      <h2 class="text-2xl md:text-4xl font-bold text-center mb-6">{{ section.settings.title }}</h2>
+    {% endif %}
+
+    {% if section.blocks.size > 0 %}
+      <div class="relative">
+        <div id="ugc-carousel" class="flex gap-4 animate-scroll whitespace-nowrap">
+          {% for block in section.blocks %}
+            {% if block.settings.video_url != blank %}
+              <div class="min-w-[250px] md:min-w-[350px] max-w-xs">
+                <video
+                  src="{{ block.settings.video_url }}"
+                  class="w-full h-auto rounded-lg shadow-md"
+                  autoplay muted loop playsinline
+                  controls
+                ></video>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <p class="text-center text-gray-500">No UGC videos added yet.</p>
+    {% endif %}
+  </div>
+</section>
+
+<style>
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-scroll {
+    display: flex;
+    animation: scroll linear 40s infinite;
+  }
+
+  @media (max-width: 768px) {
+    .animate-scroll {
+      animation-duration: 60s;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "UGC Video Carousel",
+  "tag": "section",
+  "class": "ugc-video-carousel-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "What Our Customers Say"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "UGC Video",
+      "settings": [
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video URL (MP4 or WebM)"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 20,
+  "presets": [
+    {
+      "name": "UGC Video Carousel",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

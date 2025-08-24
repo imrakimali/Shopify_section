@@ -1,0 +1,273 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_z3mVgg": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_ML79jD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GADGET.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_bzaV4N": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OthoiMart_Fb_Cover.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ML79jD",
+        "slide_bzaV4N"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "HOT OFFER 🔥",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-46a94dca-3e85-4eca-9da6-0c5ae74900a2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "featured_product_BfGHBa": {
+      "type": "featured-product",
+      "blocks": {
+        "text_GH6bUH": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_AtGYCV": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_aFE4qA": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_mQ3p4j": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_QTJreB": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_PBt7mt": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_NiTwpi": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_GH6bUH",
+        "title_AtGYCV",
+        "price_aFE4qA",
+        "variant_picker_mQ3p4j",
+        "quantity_selector_QTJreB",
+        "buy_buttons_PBt7mt",
+        "share_NiTwpi"
+      ],
+      "settings": {
+        "product": "apple-smart-watch-8-ultra-clone-mastercopy",
+        "color_scheme": "scheme-46a94dca-3e85-4eca-9da6-0c5ae74900a2",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_wrandn": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "HOT OFFER 🔥",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-product",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-46a94dca-3e85-4eca-9da6-0c5ae74900a2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "featured_product_HgUtM7": {
+      "type": "featured-product",
+      "blocks": {
+        "text_hpyGQe": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_kJCM77": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_3NRmyK": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_FMU6Dx": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_YHWQm7": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_hWBEbN": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_XCpJTx": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_hpyGQe",
+        "title_kJCM77",
+        "price_3NRmyK",
+        "variant_picker_FMU6Dx",
+        "quantity_selector_YHWQm7",
+        "buy_buttons_hWBEbN",
+        "share_XCpJTx"
+      ],
+      "settings": {
+        "product": "colmi-c81-smart-watch-with-amoled-screen",
+        "color_scheme": "scheme-46a94dca-3e85-4eca-9da6-0c5ae74900a2",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "right",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "slideshow_z3mVgg",
+    "featured_collection",
+    "featured_product_BfGHBa",
+    "featured_collection_wrandn",
+    "featured_product_HgUtM7"
+  ]
+}
