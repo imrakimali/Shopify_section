@@ -1,0 +1,105 @@
+<div id="carousel-{{ section.id }}" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    {% for block in section.blocks %}
+      <div class="carousel-item {% if forloop.first %}active{% endif %}">
+        {% if block.settings.image != blank %}
+          <img src="{{ block.settings.image | image_url: width: 1600 }}" 
+               class="d-block w-100" 
+               alt="{{ block.settings.alt | escape }}">
+        {% else %}
+          <div class="d-flex align-items-center justify-content-center bg-light" style="height:400px;">
+            <span class="text-muted">Upload an image</span>
+          </div>
+        {% endif %}
+        {% if block.settings.caption != blank %}
+          <div class="carousel-caption d-none d-md-block">
+            <h5>{{ block.settings.caption }}</h5>
+            <p>{{ block.settings.subtext }}</p>
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  {% if section.settings.show_controls %}
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-{{ section.id }}" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-{{ section.id }}" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  {% endif %}
+
+  {% if section.settings.show_indicators %}
+    <div class="carousel-indicators">
+      {% for block in section.blocks %}
+        <button type="button" data-bs-target="#carousel-{{ section.id }}" data-bs-slide-to="{{ forloop.index0 }}" 
+          {% if forloop.first %}class="active" aria-current="true"{% endif %} aria-label="Slide {{ forloop.index }}"></button>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Bootstrap Carousel",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_controls",
+      "label": "Show navigation controls",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_indicators",
+      "label": "Show indicators",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Slide Image"
+        },
+        {
+          "type": "text",
+          "id": "alt",
+          "label": "Alt Text",
+          "default": "Carousel image"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "label": "Caption Heading",
+          "default": "Slide Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "subtext",
+          "label": "Caption Subtext",
+          "default": "This is the slide description."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Bootstrap Carousel",
+      "category": "Custom Sections",
+      "blocks": [
+        { "type": "slide" },
+        { "type": "slide" },
+        { "type": "slide" }
+      ]
+    }
+  ]
+}
+{% endschema %}

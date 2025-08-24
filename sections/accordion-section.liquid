@@ -1,0 +1,75 @@
+<div class="accordion my-4" id="accordionExample">
+  {% for block in section.blocks %}
+    <div class="accordion-item">
+      <h2 class="accordion-header fs-2 " id="heading-{{ block.id }}">
+        <button class="accordion-button fs-2 {% unless forloop.first %}collapsed{% endunless %}" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#collapse-{{ block.id }}" 
+                aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" 
+                aria-controls="collapse-{{ block.id }}">
+          {{ block.settings.title }}
+        </button>
+      </h2>
+      <div id="collapse-{{ block.id }}" 
+           class="accordion-collapse collapse {% if forloop.first %}show{% endif %}" 
+           aria-labelledby="heading-{{ block.id }}" 
+           data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          {{ block.settings.content }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Bootstrap Accordion",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "FAQ Section"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "accordion_item",
+      "name": "Accordion Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Accordion Title",
+          "default": "Accordion Item Title"
+        },
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Accordion Content",
+          "default": "This is the accordion body text. You can edit it from the theme editor."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Bootstrap Accordion",
+      "category": "Custom Sections",
+      "blocks": [
+        {
+          "type": "accordion_item"
+        },
+        {
+          "type": "accordion_item"
+        },
+        {
+          "type": "accordion_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
